@@ -1,0 +1,15 @@
+[project]
+name = "live-coding-langchain-langgraph"
+version = "0.1.0"
+description = "Live coding LangChain and LangGraph"
+authors = [
+    { name = "Sergio Ramos", email = "sergio.b.snp@gmail.com" }
+]
+dependencies = [
+    "langgraph==1.0.8",
+]
+
+[dependency-groups]
+dev = [
+    "ipykernel>=7.2.0",
+]
